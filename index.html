@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"></div>
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Привет, я Малявин Александр</h1>
+            <p> я програмист 1 курса Международного Института Дизайна и Сервиса (МИДиС) </p>
+            <a href="#portfolio" class="btn">Посмотреть работы</a>
+        </div>
+        <div class="hero-image">
+             <img src="img/453445454.png" alt="Ваше фото" >
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 id="obo_mne">Обо мне</h2>
+        <div class="obo_mne">
+            <p>Меня зорвут Александр мне 16 лет я умею создавать сайты используя: HTML, CSS, и частично JS. Начал заниматься програмированием еще с 14 лет, и к этому времени уже создал несколько проектов, вы можете ознакомиться с ними ниже.</p>
+        </div>
+        <div id="obrazovanie">
+            <div class="obr">
+                <h2>Моё образование</h2>
+                <p>Я закончил среднюю школу №97 п.Бреды, и на данный момент учусь на 1 курсе Международного Института Дизайна и Сервиса (МИДиС)</p>
+            </div>
+            <div class="rel">
+                <h2>что я умею</h2>
+                <p>я могу сверстать для вас качестваенный сайт используя JS, HTML и CSS</p>
+            </div>
+    <div class="projects">
+        <div>
+        <p></p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Портфолио</h2>
+        <div class="portfolio-grid">
+           <div class="portfolio-item">
+                <h3>Проект 1</h3>
+                <a href="https://paozka.github.io/visitka/" class="btn btn-small">Подробнее</a>
+            </div>
+
+            <div class="portfolio-item">
+               <h3>Проект 2</h3>
+                <a href="https://paozka.github.io/phelki/" class="btn btn-small">Подробнее</a>
+           </div>
+
+            <div class="portfolio-item">
+               <h3>Проект 3</h3>
+               <a href="https://paozka.github.io/base_html/" class="btn btn-small">Подробнее</a>
+           </div>
+        </div>
+    </section>
+
+
+     <section id="contact">
+        <h2>Контакты</h2>
+         <div class="contact-info">
+             <div class="contact-item">
+                 <i class="fas fa-envelope"></i>
+                 <p>aleksandrmalavin213@gmail.com</p>
+             </div>
+             <div class="contact-item">
+                 <i class="fas fa-phone"></i>
+                <p>+7 950 735 53 64</p>
+            </div>
+             <div class="contact-item">
+                  <i class="fab fa-telegram"></i>
+                 <p>@Stalin194550</p>
+            </div>
+         </div>
+    </section>
+
+    <footer>
+        <h2> я буду рад сверстать для вас сайт</h2>
+        <form action="#" method="post">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+            
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+            
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" placeholder="Напишите сообщение..." required></textarea>
+            
+            <button type="submit">Отправить</button>
+        </form>
+        <p>&copy; 2024 Моё Портфолио</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
